@@ -28,7 +28,7 @@ export default function Playlists() {
       .catch(function (error) {
         console.log(error);
       });
-    axios.get('http://localhost:3000/playlist/detail?id=' + listId)
+    axios.get('https://api.hanling.space/playlist/detail?id=' + listId)
       .then(function (response) {
         data2 = response.data
         const playlist = data2.playlist
