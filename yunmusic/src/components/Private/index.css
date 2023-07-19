@@ -1,0 +1,125 @@
+.Private-box {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+}
+
+.Header{
+    width: 100%;
+    /* display: flex; */
+}
+.Header_img{
+    filter: brightness(0.8);
+    width: 100%;
+    z-index: 5;
+}
+
+.profile-card {
+    margin: 13px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    /* width: 100%; */
+    
+}
+.Personal_document{
+    margin-top: -15px;
+    flex-direction: column;
+}
+
+.avatar {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.user-info {
+    flex-grow: 1;
+    position: relative;
+    margin-top: 30px;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-description {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.Personal_document_button {
+    background-color:  #fff;
+    color:#232323;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border: 1px solid #efeeee;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Tab-Link-box{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-between;
+
+}
+/* .Tab-Link{
+    color: #888;
+}
+.Tab.open{
+    color: #ff3a00;
+} */
+.Tab-bar-box{
+    margin-left: 20%;
+    padding-left: 9px;
+    /* position: relative; */
+}
+.Tab-bar{
+
+    width: 18px;
+    height: 4px;
+    background: #ff3a00;
+    bottom: 1px;
+    border-radius: 4px;
+    transform: translate(0%,0);
+    transition: 0.5s ease-in-out;
+}
+.profile-card-main{
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 30px;
+    /* width: 100%; */
+}
+.profile-card-container{
+    display: flex;
+    width: 300%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    overflow-x: scroll;
+}
+  .profile-card-main::-webkit-scrollbar {
+    display: none;
+  }
+.profile-card-box{
+    width: 100%;
+}

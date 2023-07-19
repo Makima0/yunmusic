@@ -1,0 +1,27 @@
+.songs_box{
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    z-index: 100000;
+}
+.song_item{
+    /* position: relative; */
+    /* top:20px; */
+    height: 30px;
+    padding-bottom: 10px;
+    /* border-bottom: .5px solid #efeeee; */
+    margin-bottom: 10px;
+}
+.more{
+    float:right;
+    position:relative;
+     top: -10px;
+     width: 16px;
+     height: 16px;
+     background-image: url(./more.png);
+}
